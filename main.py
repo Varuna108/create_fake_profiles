@@ -1,5 +1,4 @@
 import file_operations
-from file_operations import VERSION
 from faker import Faker
 from random import *
 
@@ -63,7 +62,7 @@ letter_runic = {
     for i in range(len(letter_runic_list))}
 
 
-for i in range(0, 10):
+for i in range(10):
     three_runic_skills = sample(list(letter_runic.values()), k=3)
     context = {
         "first_name": fake.first_name_male(),
