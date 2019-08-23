@@ -1,6 +1,6 @@
 import file_operations
 from faker import Faker
-from random import *
+from random import sample, randint
 
 
 skills = ["Стремительный прыжок",
